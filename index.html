@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+    <header>
+           <h1 style="color: brown;">
+            HEALTH & FITNESS
+           </h1>
+    </header>
+    </div>  
+
+    <div class="body">
+     <h2 style="color: crimson;">BODY MASS INDEX(BMI) : </h2>
+        <p>is a numerical value derived from an individual's weight and height.<br> It is a useful screening tool to categorize individuals based on their body weight relative to their height, <br>which can help identify potential health risks associated with being underweight, overweight, or obese.
+        </p>  
+    <h2 style="color: rgb(6, 6, 9);">
+        How BMI is Calculated :
+    </h2>
+    <p>
+        BMI is calculated using the following formula:
+
+        BMI= 
+        <span>
+            <span>
+                weight(kg)
+                /
+            </span>
+            <span>height (m)<sup>2</sup></span>
+        </span>
+        <br>
+        <h2 style="color: rgb(227, 20, 148);">Steps for Calculation</h2>
+Measure Weight: Obtain your weight in kilograms (kg).<br>
+Measure Height: Measure your height in meters (m) or inches (in).<br>
+Apply the Formula: Plug the values into the appropriate formula.<br></p>
+
+<h2 style="color: rgb(8, 162, 62);">BMI Categories :</h2>
+<p>
+The World Health Organization (WHO) classifies BMI into the following categories:<br>
+
+Underweight: BMI < 18.5<br>
+Normal weight: BMI 18.5–24.9<br>
+Overweight: BMI 25–29.9<br>
+Obesity: BMI ≥ 30<br>
+</p>
+</div>  
+
+<div class="container">
+    <h1 style="color: darkblue;text-align: center;text-decoration: underline;">BMI CALCULATE</h1>
+   <div class="form-group">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight"  required>
+    </div>
+    <div class="form-group">
+        <label for="hieght">Hieght(m): </label>
+        <input type="number" id="hieght"required>
+    </div>
+    
+    <button  onclick="CalculateBMI()" >CALCULATE BMI</button>
+    <h2 id="result">Result</h2>
+</div> 
+
+<script src="index.js"></script>
+    
+</body>
+</html>
